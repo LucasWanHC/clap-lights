@@ -14,6 +14,7 @@ input.onSound(DetectedSound.Loud, function () {
 })
 let lightsOn = false
 input.setSoundThreshold(SoundThreshold.Loud, 96)
+led.setBrightness(64)
 basic.forever(function () {
 	
 })
